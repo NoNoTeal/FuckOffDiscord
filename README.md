@@ -18,7 +18,7 @@ Using injections (💉) and only 2 Javascript files, You can tell Discord to fuc
 
 ## Download
 
-Go to https://github.com/NoNoTeal/FuckOffDiscord/releases/Latest for the **Latest** download.
+Go to https://github.com/NoNoTeal/FuckOffDiscord/releases/latest for the **Latest** download.
 
 Go to https://github.com/NoNoTeal/FuckOffDiscord/releases for **all** downloads.
 
