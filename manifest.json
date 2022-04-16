@@ -1,8 +1,8 @@
 {
     "name": "Fuck Off Discord!",
-    "version": "1.0",
+    "version": "2.0",
     "description": "Prevents Discord from opening the Desktop app.",
-    "permissions": [
+    "host_permissions": [
       "*://*.discord.com/invite/*",
       "*://discord.com/invite/*"
     ],
@@ -20,15 +20,13 @@
       "js": ["scripts/inject.js"],
       "run_at": "document_end"
     }],
-    "web_accessible_resources": ["scripts/disable.js"],
-    "page_action": {
-      "default_title": "Fuck Off Discord!",
-      "default_icon": { 
-        "16": "/icns/activeIcon/activeIcon16px.png",
-        "32": "/icns/activeIcon/activeIcon32px.png",
-        "48": "/icns/activeIcon/activeIcon48px.png",
-        "128": "/icns/activeIcon/activeIcon128px.png" 
+    "web_accessible_resources": [
+      {
+        "resources": ["scripts/disable.js"],
+        "matches": [
+          "<all_urls>"
+        ]
       }
-    },
-    "manifest_version": 2
+    ],
+    "manifest_version": 3
 }
